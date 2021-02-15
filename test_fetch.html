@@ -14,7 +14,7 @@
       getData();
 
       async function getData() {
-        const response = await fetch('test.csv');
+        const response = await fetch('https://github.com/lakeso-programme/java/blob/main/test.csv');
         const data = await response.text();
         console.log(data);
 
